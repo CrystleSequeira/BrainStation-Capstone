@@ -2,7 +2,8 @@
 
 Project: Predict wine scores from a wine review dataset that was downloaded from Kaggle. 
 
-https://www.kaggle.com/zynicide/wine-reviews
+
+Original dataset is taken from [Kaggle](https://www.kaggle.com/zynicide/wine-reviews)
 ---------------------------------------------------------
 
 #### Python Packages needed to install: 
@@ -21,13 +22,9 @@ https://www.kaggle.com/zynicide/wine-reviews
 #### Machine Learning Model:
 logreg_ml.pkl (Best performing model - Logistic Regression)
 
-#### Jupyter Notebooks:
-Part1_Clean_Wine_Reviews.ipynb - Jupyter Notebook used for cleaning the dataset which includes Missing Values, Drop Columns, and Feature Engineering
-
-Part2_NLP_Wine_Reviews.ipynb - Jupyter Notebook used for processing the text dataset into numerical values with NLP
-
-Part3A_ML.ipynb - include Logistic Regression, Random Forest, and xgboost. This notebook is mainly to show previous workflow and the process of multiple iterations.
-
-Part3B_ML_v1.ipynb - Machine Learning with final approach using Random Forest
-
-Part3B_ML_v2.ipynb - Machine Learning with final approach using Logistic Regression and XGBoost
+#### Notebook Folder:
+- Part1_Clean_Wine_Reviews.ipynb - Jupyter Notebook used for cleaning the dataset which includes Missing Values, Drop Columns, and Feature Engineering
+- Part2_NLP_Wine_Reviews.ipynb - Jupyter Notebook used for processing the text dataset into numerical values with NLP
+- Part3A_ML.ipynb - include Logistic Regression, Random Forest, and xgboost. This notebook is mainly to show previous workflow and the process of multiple iterations.
+- Part3B_ML_v1.ipynb - Machine Learning with final approach using Random Forest
+- Part3B_ML_v2.ipynb - Machine Learning with final approach using Logistic Regression and XGBoost
