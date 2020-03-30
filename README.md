@@ -1,8 +1,19 @@
-# Use of NLP and supervised learning to predict wine scores from wine descriptions
+## Use of NLP and supervised learning to predict wine scores from wine descriptions
 
 Original dataset is taken from [Kaggle](https://www.kaggle.com/zynicide/wine-reviews)
 
+#### Problem Statement:
+Predicting how a wine will perform and understanding why that wine performs can be beneficial for consumers and sellers of wine. For example, a winemaker might want to gain insights into why their pinot noir is rated higher ¬than their chardonnay. As well, wine distributers might want to make profitable decisions like is it worth it to invest in an expensive wine and will this wine sell. To delve into these questions, I created a predictive model to target wine scores and analyzed a dataset that includes the geography of the wine, price, description, variety, and vintage.
 
+#### Description of the dataset:
+- Datatframe exported as a csv with information about wine
+- Data was originally scraped from the kaggle user on www.winemag.com
+- 130k rows and 12 columns
+
+#### Methods:
+1. Clean data
+2. Feature Engineering
+3. 
 ---------------------------------------------------------
 
 #### Python Packages needed to install: 
