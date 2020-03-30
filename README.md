@@ -11,15 +11,15 @@ https://www.kaggle.com/zynicide/wine-reviews
 - conda install -c conda-forge xgboost
 - conda install -c conda-forge geopy (Note: Did not end up using this package, but if you want to try to extract Latitude and Longitude as Features, you can use this package)
 
-#### Data Zip File:
-dummy_train.csv - this file is the dummy variables for variety, country, province from the train dataset. This file is important for making sure that future datasets contain the same features as the train dataset.
-train_clean.csv - Train dataset where missing values have been removed, and non essential columns are dropped.
-test_clean.csv - Test dataset after cleaning from Part 1 Jupiter notebook
-model_train.csv - Train dataset that is ready for fitting a model
-model_test.csv - Test dataset that is ready for fitting a model
+#### Data Folder 
+- dummy_train.csv: this file is the dummy variables for variety, country, province from the train dataset. This file is important for making sure that future datasets contain the same features as the train dataset.
+- train_clean.csv: Train dataset where missing values have been removed, and non essential columns are dropped.
+- test_clean.csv: Test dataset after cleaning from Part 1 Jupiter notebook
+- model_train.csv: Train dataset that is ready for fitting a model
+- model_test.csv: Test dataset that is ready for fitting a model
 
 #### Machine Learning Model:
--logreg_ml.pkl (Best performing model - Logistic Regression)
+logreg_ml.pkl (Best performing model - Logistic Regression)
 
 #### Jupyter Notebooks:
 Part1_Clean_Wine_Reviews.ipynb - Jupyter Notebook used for cleaning the dataset which includes Missing Values, Drop Columns, and Feature Engineering
