@@ -5,10 +5,10 @@ https://www.kaggle.com/zynicide/wine-reviews
 ---------------------------------------------------------
 
 #### Python Packages needed to install: 
-conda install -c anaconda joblib
-conda install -c anaconda nltk
-conda install -c conda-forge xgboost
-conda install -c conda-forge geopy (Note: Did not end up using this package, but if you want to try to extract Latitude and Longitude as Features, you can use this package)
+- conda install -c anaconda joblib
+- conda install -c anaconda nltk
+- conda install -c conda-forge xgboost
+- conda install -c conda-forge geopy (Note: Did not end up using this package, but if you want to try to extract Latitude and Longitude as Features, you can use this package)
 
 #### Data Zip File:
 dummy_train.csv - this file is the dummy variables for variety, country, province from the train dataset. This file is important for making sure that future datasets contain the same features as the train dataset.
