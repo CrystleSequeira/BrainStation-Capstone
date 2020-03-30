@@ -1,9 +1,8 @@
-# BrainStation-Capstone
-
-Project: Predict wine scores from a wine review dataset that was downloaded from Kaggle. 
-
+# Use of NLP and supervised learning to predict wine scores from wine descriptions
 
 Original dataset is taken from [Kaggle](https://www.kaggle.com/zynicide/wine-reviews)
+
+
 ---------------------------------------------------------
 
 #### Python Packages needed to install: 
