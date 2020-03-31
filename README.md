@@ -2,10 +2,10 @@
 
 Original dataset is taken from [Kaggle](https://www.kaggle.com/zynicide/wine-reviews)
 
-This is my final capstone project for the [BrainStation](https://brainstation.io/) Data Science Diploma Program that I completed in Winter 2020. I chose this dataset because there are over 100k rows of data to work with, as well this is a very text heavy dataset which is something I wanted to gain experience in. You can utilize this dataset in many different ways. My first approach to working with this dataset is to create a supervised learning model to target wine scores.
+This is my final capstone project for the [BrainStation](https://brainstation.io/) Data Science Diploma Program. I decided to work with this dataset because the dataset contains over 100k rows and this is a text heavy dataset which is something I wanted to gain experience in. You can utilize this dataset in many different ways. My first approach to working with this dataset is to create a supervised learning model to target wine points.
 
 #### Problem Statement:
-Predicting how a wine will perform and understanding why that wine performs can be beneficial for consumers and sellers of wine. For example, a winemaker might want to gain insights into why their pinot noir is rated higher ¬than their chardonnay. As well, wine distributers might want to make profitable decisions like is it worth it to invest in an expensive wine and will this wine sell. To delve into these questions, I created a predictive model to target wine scores and analyzed a dataset that includes the geography of the wine, price, description, variety, and vintage.
+Predicting how a wine will perform and understanding why that wine performs can be beneficial for consumers and sellers of wine. For example, a winemaker might want to gain insights into why their pinot noir is rated higher than their chardonnay. As well, wine distributers might want to make profitable decisions like is it worth it to invest in an expensive wine and will this wine sell. To delve into these questions, I created a predictive model to target wine scores and analyzed a dataset that includes the geography of the wine, price, description, variety, and vintage.
 
 #### Description of the dataset:
 - Datatframe exported as a csv with information about wine
@@ -46,6 +46,7 @@ Predicting how a wine will perform and understanding why that wine performs can 
 - XGBoost
 - Hyperparameter Optimization 
 - Pipline/Gridsearch
+- Model Evaluation
 ---------------------------------------------------------
 
 #### Python Packages needed to install: 
