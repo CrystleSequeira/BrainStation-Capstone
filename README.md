@@ -31,11 +31,14 @@ Predicting how a wine will perform and understanding why that wine performs can 
 - Missing Data
 - Remove Columns
 - EDA
+
 2. Feature Engineering
-    - Extract Vintage from the title of the wine
+- Extract Vintage from the title of the wine
+
 3. NLP
 - One-Hot-Encoder
 - TF-IDF Vectorizer
+
 4. Machine Learning
 - Logistic Regression
 - Random Forest
