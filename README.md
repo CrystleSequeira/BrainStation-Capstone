@@ -1,6 +1,8 @@
-## Use of NLP and supervised learning to predict wine scores from wine descriptions
+## Use of NLP and supervised learning to predict wine scores
 
 Original dataset is taken from [Kaggle](https://www.kaggle.com/zynicide/wine-reviews)
+
+This is my final capstone project for the [BrainStation](https://brainstation.io/) Data Science Diploma Program that I completed in Winter 2020. 
 
 #### Problem Statement:
 Predicting how a wine will perform and understanding why that wine performs can be beneficial for consumers and sellers of wine. For example, a winemaker might want to gain insights into why their pinot noir is rated higher ¬than their chardonnay. As well, wine distributers might want to make profitable decisions like is it worth it to invest in an expensive wine and will this wine sell. To delve into these questions, I created a predictive model to target wine scores and analyzed a dataset that includes the geography of the wine, price, description, variety, and vintage.
@@ -9,11 +11,37 @@ Predicting how a wine will perform and understanding why that wine performs can 
 - Datatframe exported as a csv with information about wine
 - Data was originally scraped from the kaggle user on www.winemag.com
 - 130k rows and 12 columns
-
+- Column Names: 
+  - country - The country from where the wine is made
+  - description - wine description from reviewer
+  - designation - The vineyard within the winery 
+  - points - Wine rating which range between 80 - 100. A rating can range between 0 - 100, however winemag.com only posts reviews that scored 80 and above.
+  - price - Cost of a bottle of wine
+  - province - Province where the wine is made
+  - region_1 - The region from where the wine is made
+  - region_2 - A subregion from where the wine is made
+  - taster_name - Name of the taster who reviewed the wine
+  - taster_twitter_handle - Taster's twitter handle
+  - title - Title of the wine
+  - variety - variety or blend of the wine such as Pinot Noir or Merlot
+  - winery - The name of thet winery where the wine is made
+  
 #### Methods:
 1. Clean data
+   - Missing Data
+   - Remove Columns
+   - EDA
 2. Feature Engineering
-3. 
+    - Extract Vintage from the title of the wine
+3. NLP
+  - One-Hot-Encoder
+  - TF-IDF Vectorizer
+4. Machine Learning
+  - Logistic Regression
+  - Random Forest
+  - XGBoost
+  - Hyperparameter Optimization 
+  - Pipline/Gridsearch
 ---------------------------------------------------------
 
 #### Python Packages needed to install: 
