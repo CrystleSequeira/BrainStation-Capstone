@@ -28,9 +28,9 @@ Predicting how a wine will perform and understanding why that wine performs can 
   
 #### Methods:
 1. Clean data
-- Missing Data
-- Remove Columns
-- EDA
+a. Missing Data
+b. Remove Columns
+c. EDA
 
 2. Feature Engineering
 - Extract Vintage from the title of the wine
